@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6579DD90208DB9A3004FA6C5 /* ForWebUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579DD8F208DB9A3004FA6C5 /* ForWebUse.swift */; };
+		6579DD92208DBE3F004FA6C5 /* ForWeb4Use.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579DD91208DBE3F004FA6C5 /* ForWeb4Use.swift */; };
+		6579DD94208DC4C3004FA6C5 /* ForWeb4_2Use.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579DD93208DC4C3004FA6C5 /* ForWeb4_2Use.swift */; };
 		65BA36C5207C9BC000298C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA36C4207C9BC000298C28 /* AppDelegate.swift */; };
 		65BA36C7207C9BC000298C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA36C6207C9BC000298C28 /* ViewController.swift */; };
 		65BA36CA207C9BC000298C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BA36C8207C9BC000298C28 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6579DD8F208DB9A3004FA6C5 /* ForWebUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForWebUse.swift; sourceTree = "<group>"; };
+		6579DD91208DBE3F004FA6C5 /* ForWeb4Use.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForWeb4Use.swift; sourceTree = "<group>"; };
+		6579DD93208DC4C3004FA6C5 /* ForWeb4_2Use.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForWeb4_2Use.swift; sourceTree = "<group>"; };
 		65BA36C1207C9BC000298C28 /* DevilMayCry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevilMayCry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BA36C4207C9BC000298C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65BA36C6207C9BC000298C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +63,12 @@
 				65BA36C4207C9BC000298C28 /* AppDelegate.swift */,
 				65BA36C6207C9BC000298C28 /* ViewController.swift */,
 				65BA36C8207C9BC000298C28 /* Main.storyboard */,
+				6579DD93208DC4C3004FA6C5 /* ForWeb4_2Use.swift */,
 				65BA36CB207C9BC200298C28 /* Assets.xcassets */,
 				65BA36CD207C9BC200298C28 /* LaunchScreen.storyboard */,
 				65BA36D0207C9BC200298C28 /* Info.plist */,
+				6579DD91208DBE3F004FA6C5 /* ForWeb4Use.swift */,
+				6579DD8F208DB9A3004FA6C5 /* ForWebUse.swift */,
 			);
 			path = DevilMayCry;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65BA36C7207C9BC000298C28 /* ViewController.swift in Sources */,
+				6579DD92208DBE3F004FA6C5 /* ForWeb4Use.swift in Sources */,
+				6579DD94208DC4C3004FA6C5 /* ForWeb4_2Use.swift in Sources */,
 				65BA36C5207C9BC000298C28 /* AppDelegate.swift in Sources */,
+				6579DD90208DB9A3004FA6C5 /* ForWebUse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

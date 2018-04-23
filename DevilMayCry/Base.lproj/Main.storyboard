@@ -1,24 +1,1556 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gks-av-ldd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--DMC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DevilMayCry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DMC1-6" translatesAutoresizingMaskIntoConstraints="NO" id="tqw-tt-rxe">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DMC logo" translatesAutoresizingMaskIntoConstraints="NO" id="C81-He-HR7">
+                                <rect key="frame" x="0.0" y="64" width="375" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbb-Wu-api">
+                                <rect key="frame" x="19" y="130" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="劇情大綱"/>
+                                <connections>
+                                    <segue destination="SrI-nR-6hl" kind="show" id="Y8B-iT-gm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsi-Bl-vb3">
+                                <rect key="frame" x="19" y="178" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="人物介紹"/>
+                                <connections>
+                                    <segue destination="Rv7-Zt-oqH" kind="show" id="2W5-jK-lcP"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="DMC" landscapeImage="DMC logo" id="xvn-h0-Ufv"/>
+                    <navigationItem key="navigationItem" id="ioL-Wp-Bvm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1942" y="-1848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="egJ-eu-dLj">
+            <objects>
+                <viewController id="SrI-nR-6hl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r7E-6E-zpw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DMC1-2BG" translatesAutoresizingMaskIntoConstraints="NO" id="dIb-Xw-1ec">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DMC logo" translatesAutoresizingMaskIntoConstraints="NO" id="JLK-UI-KoM">
+                                <rect key="frame" x="0.0" y="64" width="375" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlJ-Hp-ZjP">
+                                <rect key="frame" x="32" y="157" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">故事圍繞身為私家偵探兼惡魔獵人的但丁，他成立了一間事務所「Devil May Cry」，希望找到殺害自己母親的惡魔。《惡魔獵人》的開始，但丁的事務所受到神秘女子翠絲（Trish）突襲，她的樣貌跟但丁的母親伊娃非常相似，但丁以華麗的身手制服了翠絲，並且邀請翠絲成為他的合作夥伴。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BLu-4I-k5c"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYa-Hn-Syf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2722" y="-2191"/>
+        </scene>
+        <!--DMC2-->
+        <scene sceneID="j6Q-wT-5LS">
+            <objects>
+                <viewController id="Dp5-Po-LDN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2u3-c1-qjI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dmc2BG" translatesAutoresizingMaskIntoConstraints="NO" id="tox-eN-c1J">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwU-MY-zys">
+                                <rect key="frame" x="16" y="89" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="劇情大綱"/>
+                                <connections>
+                                    <segue destination="9Q3-bw-rmW" kind="show" id="fac-k8-bqJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AX-pE-FLT">
+                                <rect key="frame" x="16" y="140" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="人物介紹"/>
+                                <connections>
+                                    <segue destination="3Bc-d6-DMz" kind="show" id="yat-rl-IJf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BEG-NK-3P2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="DMC2" id="NBJ-Sz-kjp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n4D-SQ-qlr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3737" y="323"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EZf-yM-ffA">
+            <objects>
+                <viewController id="Rv7-Zt-oqH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czA-ko-09g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02_1" translatesAutoresizingMaskIntoConstraints="NO" id="W34-Fb-AQp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="262-8A-dWL">
+                                <rect key="frame" x="59" y="121" width="102" height="30"/>
+                                <state key="normal" title="但丁（Dante）"/>
+                                <connections>
+                                    <segue destination="THz-YG-WCh" kind="show" id="bVn-Gf-qCo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7Z-JB-OJh">
+                                <rect key="frame" x="59" y="159" width="95" height="30"/>
+                                <state key="normal" title="翠絲（Trish）"/>
+                                <connections>
+                                    <segue destination="oDT-f8-VCc" kind="show" id="ccV-Yh-acD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCB-Zj-4lH">
+                                <rect key="frame" x="59" y="197" width="195" height="30"/>
+                                <state key="normal" title="尼洛·安傑羅（Nelo Angelo）"/>
+                                <connections>
+                                    <segue destination="GLb-9y-Z3t" kind="show" id="OkK-CO-JQh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaV-sZ-yDU">
+                                <rect key="frame" x="59" y="235" width="126" height="30"/>
+                                <state key="normal" title="斯巴達（Sparda）"/>
+                                <connections>
+                                    <segue destination="i3e-DB-ubI" kind="show" id="stM-mm-qbk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6Z-jQ-lbh">
+                                <rect key="frame" x="59" y="273" width="86" height="30"/>
+                                <state key="normal" title="伊娃（Eva）"/>
+                                <connections>
+                                    <segue destination="5fg-8N-rp4" kind="show" id="pzA-ol-Wum"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDr-EA-GYe">
+                                <rect key="frame" x="59" y="311" width="163" height="30"/>
+                                <state key="normal" title="魔帝穆圖斯（Mundus）"/>
+                                <connections>
+                                    <segue destination="uAL-gV-YVi" kind="show" id="fFF-ag-GfI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FaV-sZ-yDU" secondAttribute="trailing" constant="20" symbolic="YES" id="09l-nu-wC3"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GDr-EA-GYe" secondAttribute="trailing" constant="20" symbolic="YES" id="0ua-Xo-8Ke"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="T7Z-JB-OJh" secondAttribute="trailing" constant="20" symbolic="YES" id="4Bh-gy-ath"/>
+                            <constraint firstItem="v6Z-jQ-lbh" firstAttribute="top" secondItem="FaV-sZ-yDU" secondAttribute="bottom" constant="8" id="9zG-0L-8jb"/>
+                            <constraint firstItem="T7Z-JB-OJh" firstAttribute="leading" secondItem="hoA-cd-rX5" secondAttribute="leading" constant="59" id="Jdo-lS-hNz"/>
+                            <constraint firstItem="GDr-EA-GYe" firstAttribute="top" secondItem="v6Z-jQ-lbh" secondAttribute="bottom" constant="8" id="K6t-3s-cGY"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v6Z-jQ-lbh" secondAttribute="trailing" constant="20" symbolic="YES" id="KVS-aM-SeZ"/>
+                            <constraint firstItem="T7Z-JB-OJh" firstAttribute="top" secondItem="262-8A-dWL" secondAttribute="bottom" constant="8" id="NcZ-ob-7Ma"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="262-8A-dWL" secondAttribute="trailing" constant="20" symbolic="YES" id="Si4-kk-ZSF"/>
+                            <constraint firstItem="FaV-sZ-yDU" firstAttribute="top" secondItem="gCB-Zj-4lH" secondAttribute="bottom" constant="8" id="TIf-SO-Squ"/>
+                            <constraint firstItem="262-8A-dWL" firstAttribute="leading" secondItem="hoA-cd-rX5" secondAttribute="leading" constant="59" id="UDQ-zR-hyV"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gCB-Zj-4lH" secondAttribute="trailing" constant="20" symbolic="YES" id="Wck-hZ-ezL"/>
+                            <constraint firstItem="gCB-Zj-4lH" firstAttribute="top" secondItem="T7Z-JB-OJh" secondAttribute="bottom" constant="8" id="XwJ-bM-Sif"/>
+                            <constraint firstItem="gCB-Zj-4lH" firstAttribute="leading" secondItem="hoA-cd-rX5" secondAttribute="leading" constant="59" id="aqh-2w-31x"/>
+                            <constraint firstItem="GDr-EA-GYe" firstAttribute="leading" secondItem="hoA-cd-rX5" secondAttribute="leading" constant="59" id="cqE-mB-hck"/>
+                            <constraint firstItem="262-8A-dWL" firstAttribute="top" secondItem="hoA-cd-rX5" secondAttribute="top" constant="57" id="dp3-yF-r9F"/>
+                            <constraint firstItem="FaV-sZ-yDU" firstAttribute="leading" secondItem="hoA-cd-rX5" secondAttribute="leading" constant="59" id="e9i-cg-4nw"/>
+                            <constraint firstItem="v6Z-jQ-lbh" firstAttribute="leading" secondItem="hoA-cd-rX5" secondAttribute="leading" constant="59" id="p15-7e-z87"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hoA-cd-rX5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bNX-cu-wBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2722" y="-1507"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yW5-Vx-5JT">
+            <objects>
+                <viewController id="oDT-f8-VCc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2RJ-25-qcM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1代Trish" translatesAutoresizingMaskIntoConstraints="NO" id="XBO-48-y3s">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本作的女主角，名字源自於但丁一生單相思的戀人貝德麗采（Beatrice）。故事中的設定為跟但丁的母親有著一模一樣的容貌，為穆圖斯製造，用來引領但丁前往馬列特島。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajL-ic-kRp">
+                                <rect key="frame" x="24" y="247" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vA0-Qy-RqI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R7G-Vy-Qh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4068" y="-2060"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sll-l0-JjF">
+            <objects>
+                <viewController id="GLb-9y-Z3t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F33-da-tgV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1代維吉爾" translatesAutoresizingMaskIntoConstraints="NO" id="riw-gh-EXc">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="來自魔界的黑騎士，名字源自義大利文中「黑天使」之意。但丁的哥哥變成魔界的騎士而改的名字。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKJ-kd-aVq">
+                                <rect key="frame" x="24" y="279" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PMd-BW-q0Y"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1w-Ij-hIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4068" y="-1397"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r6b-lf-C17">
+            <objects>
+                <viewController id="uAL-gV-YVi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="igO-NK-gzY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1Mundus" translatesAutoresizingMaskIntoConstraints="NO" id="PCY-Xt-AO8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="魔界的統治者，名字源自拉丁文的「宇宙」；本來在兩千年前與但丁的父親斯巴達交戰最後不敵斯巴達的力量而被斯巴達封印起來，而他趁著斯巴達的封印減弱的時候突破封印並在馬列特島上聚集自己的惡魔軍團且準備再次入侵人間；但是最後也是敗於但丁手下而再一次被封印。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3J-yY-L6c">
+                                <rect key="frame" x="24" y="279" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ruD-5N-p2R"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bl0-Ha-AQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2687" y="-700"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BQp-Oz-YOx">
+            <objects>
+                <viewController id="5fg-8N-rp4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WdI-u3-Tkp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1eva" translatesAutoresizingMaskIntoConstraints="NO" id="xwc-eO-Ian">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="但丁與維吉爾的母親。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sf-dE-Mvq">
+                                <rect key="frame" x="24" y="279" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="huT-HO-tbo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQG-6q-DlN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3359" y="-700"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wHI-S3-8UN">
+            <objects>
+                <viewController id="i3e-DB-ubI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CDf-33-N7L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1sparda" translatesAutoresizingMaskIntoConstraints="NO" id="lNK-3j-QVO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="但丁與維吉爾的父親，名字源自於義大利文「Spada」，意義為「劍」，而多加一個r是為了方便發音的緣故。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPa-TW-kVm">
+                                <rect key="frame" x="24" y="279" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="H5Z-io-f7Z"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oTI-gF-4HT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4068" y="-700"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iz9-l3-2YU">
+            <objects>
+                <viewController id="THz-YG-WCh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JPL-Lb-Lo5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03_1 " translatesAutoresizingMaskIntoConstraints="NO" id="vr7-OR-l6V">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本作的主角。特徵是銀白色的頭髮和身穿紅色的大衣，使用的武器為大劍「反逆之劍」和雙槍「黑檀&amp;象牙」。但丁的母親伊娃（Eva）為人類，而父親為惡魔斯巴達（Sparda），故但丁具有半人半魔的身分。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpf-wa-YlS">
+                                <rect key="frame" x="24" y="247" width="327" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xCC-Sc-CIt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDP-ze-CUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4068" y="-2729"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P5k-O3-Dy0">
+            <objects>
+                <viewController id="9Q3-bw-rmW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1I8-1b-vnD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nmare16 " translatesAutoresizingMaskIntoConstraints="NO" id="N2r-WZ-seH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAG-P9-JMv">
+                                <rect key="frame" x="24" y="141" width="327" height="526"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">《惡魔獵人2》的故事是由但丁或路西亞兩人所交織出來的。經營著「Devil May Cry 」事務所的惡魔獵人Dante在博物館協助一名神秘女子Lucia消滅了忽然出現的惡魔，之後接到女子委託前來到「聖與魔的交融島嶼」杜瑪利島上，從Lucia的母親Matier得知了野心家Arius為了復活邪神的消息，同時也得知了自己父親Sparda曾經封印邪神的事蹟。為了阻止邪神的複活，Dante與Luica一同來到了Arius的總部。在此，Lucia卻得知自己是由Arius用魔力創造的魔人的事情。在Dante擊敗了Arius並阻止了儀式後，Luica要求Dante殺了自己，因為自己是一個魔人。 Dante告訴Lucia：「Devils Never Cry。」擦去了Luica的眼淚。這時，魔界的大門再次在島嶼上方開啟，Dante獨自一人，繼承父親Sparda的意志，進入了魔界。在魔界中，Dante封印了因為儀式中斷而並沒有完全覺醒的邪神ARGOSAX。而在島上，Lucia也不再為自己的身世而困擾，打敗了已成為邪神ARGOSAX媒介體的Arius。最後，在惡魔獵人事務所內，Lucia獨自拿著Dante留下的硬幣，等待著Dante的歸來。這時，事務所門外，傳來了一陣熟悉的摩托聲。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ttG-D0-kEu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lt-8r-lPY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4681" y="142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gLO-gP-I0b">
+            <objects>
+                <viewController id="eQ5-Q7-yO4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Qg-An-wIH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d_02sxga" translatesAutoresizingMaskIntoConstraints="NO" id="we4-tN-mbA">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="但丁繼續擔任續作《惡魔獵人2》的主角，具有半人半魔的身分。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0o-Oi-2U5">
+                                <rect key="frame" x="24" y="325" width="327" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6tI-Gb-nhf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rr-jI-ufA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5614" y="142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ka0-hj-xks">
+            <objects>
+                <viewController id="OrE-Gg-PXu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dak-6K-IMt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lucia-Wallpaper-devil-may-cry-2-38822186-1024-768" translatesAutoresizingMaskIntoConstraints="NO" id="y2i-Yd-Qic">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="路西亞是《惡魔獵人2》的女主角，名字源自神曲中。路西亞是亞歷烏斯製造的惡魔，後期才知道自己的真實身分，現在是「守護之手」之繼承人。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOB-9l-d7h">
+                                <rect key="frame" x="24" y="281" width="327" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zmX-ha-TW7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Csf-cF-74b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5614" y="805"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="u3Y-hM-cef">
+            <objects>
+                <viewController id="GyH-IB-5eh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vJF-Ah-ocN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="matier-devil-may-cry-2-2.83" translatesAutoresizingMaskIntoConstraints="NO" id="IKD-8I-vzN">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="路西亞名義上的母親。曾經與斯巴達共同作戰過，有著「守護之手」的稱號。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFZ-bl-y2A">
+                                <rect key="frame" x="24" y="313" width="327" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EFE-up-VXa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfu-HU-1rW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4545" y="1616"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gDK-mq-RyA">
+            <objects>
+                <viewController id="hfw-4F-7Uo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mYW-ef-A9j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ar2" translatesAutoresizingMaskIntoConstraints="NO" id="V86-YR-d1C">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="亞歷烏斯表面為國際企業之總裁，對於宗教及古代魔術文化有深入的研究。為了得到邪神的力量而進行召換的儀式，但最後被但丁阻止。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT6-k0-mhy">
+                                <rect key="frame" x="24" y="313" width="327" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PFc-55-pNB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5GA-b8-1Ic" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5209" y="1615"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kzk-bW-woU">
+            <objects>
+                <viewController id="3Bc-d6-DMz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bVR-SO-TfT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="220px-dante_26_lucia" translatesAutoresizingMaskIntoConstraints="NO" id="5y4-wV-ho8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcM-5p-FFU">
+                                <rect key="frame" x="16" y="93" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="但丁（Dante）"/>
+                                <connections>
+                                    <segue destination="eQ5-Q7-yO4" kind="show" id="vQe-27-1MU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWZ-Tz-aDE">
+                                <rect key="frame" x="16" y="131" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="路西亞（Lucia)"/>
+                                <connections>
+                                    <segue destination="OrE-Gg-PXu" kind="show" id="Abn-FU-h8b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ajl-ox-Hgv">
+                                <rect key="frame" x="16" y="169" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="亞歷烏斯（Arius）"/>
+                                <connections>
+                                    <segue destination="hfw-4F-7Uo" kind="show" id="46B-BH-lwV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jaa-PY-yCX">
+                                <rect key="frame" x="16" y="207" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="馬蒂爾（Matier）"/>
+                                <connections>
+                                    <segue destination="GyH-IB-5eh" kind="show" id="ZyN-z1-cL0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LGj-fX-c5v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfs-1P-Oo0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4713" y="782"/>
+        </scene>
+        <!--For Web4 Use-->
+        <scene sceneID="8q4-Fd-J4n">
+            <objects>
+                <viewController id="2nd-NG-gW8" customClass="ForWeb4Use" customModule="DevilMayCry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LSj-oO-ceN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYM-Nn-6oM">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LO2-fF-hed"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="rYM-Nn-6oM" id="7Wk-8l-43a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="njH-df-FaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1436" y="932"/>
+        </scene>
+        <!--DMC4-->
+        <scene sceneID="sgL-4g-yXJ">
+            <objects>
+                <viewController id="90A-e3-7aZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qvc-Yr-NRQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ar-cZ-i5l">
+                                <rect key="frame" x="166" y="-71" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dmc4BG" translatesAutoresizingMaskIntoConstraints="NO" id="kWi-5o-vPy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYf-FM-1yc">
+                                <rect key="frame" x="22" y="169" width="62" height="30"/>
+                                <state key="normal" title="劇情大綱"/>
+                                <connections>
+                                    <segue destination="COO-CE-YiV" kind="show" id="8Zk-Sw-0QK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOt-FS-FH9">
+                                <rect key="frame" x="22" y="207" width="62" height="30"/>
+                                <state key="normal" title="人物介紹"/>
+                                <connections>
+                                    <segue destination="hBs-XL-i2g" kind="show" id="8pB-23-1C4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Devil_May_Cry_4" translatesAutoresizingMaskIntoConstraints="NO" id="tIo-cs-DXV">
+                                <rect key="frame" x="0.0" y="483" width="375" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="1yt-Bl-eYb"/>
+                                    <constraint firstAttribute="height" constant="135" id="K3i-p9-aM8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdf-VI-1fn">
+                                <rect key="frame" x="22" y="245" width="137" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Cbo-wX-lM7"/>
+                                </constraints>
+                                <state key="normal" title="精彩影片(有改模組)"/>
+                                <connections>
+                                    <segue destination="2nd-NG-gW8" kind="show" id="bX0-Q4-Goi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF1-ce-xk0">
+                                <rect key="frame" x="22" y="283" width="129" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="frD-9W-OOj"/>
+                                </constraints>
+                                <state key="normal" title="精彩影片(正常版)"/>
+                                <connections>
+                                    <segue destination="QX4-nm-Ie7" kind="show" id="AsQ-XT-auD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n8Z-f8-kpo" firstAttribute="trailing" secondItem="wdf-VI-1fn" secondAttribute="trailing" constant="216" id="5cD-GC-hVU"/>
+                            <constraint firstItem="wdf-VI-1fn" firstAttribute="leading" secondItem="n8Z-f8-kpo" secondAttribute="leading" constant="22" id="Ad4-dd-RNm"/>
+                            <constraint firstItem="dF1-ce-xk0" firstAttribute="top" secondItem="wdf-VI-1fn" secondAttribute="bottom" constant="8" id="BmT-JT-cpQ"/>
+                            <constraint firstItem="tIo-cs-DXV" firstAttribute="leading" secondItem="n8Z-f8-kpo" secondAttribute="leading" id="NxG-LF-3bY"/>
+                            <constraint firstItem="wdf-VI-1fn" firstAttribute="top" secondItem="rOt-FS-FH9" secondAttribute="bottom" constant="8" id="PRc-Nl-vB7"/>
+                            <constraint firstItem="tIo-cs-DXV" firstAttribute="bottom" secondItem="n8Z-f8-kpo" secondAttribute="bottom" id="RU7-Ra-gIe"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rOt-FS-FH9" secondAttribute="trailing" constant="20" symbolic="YES" id="SDZ-OA-1cJ"/>
+                            <constraint firstItem="n8Z-f8-kpo" firstAttribute="trailing" secondItem="dF1-ce-xk0" secondAttribute="trailing" constant="224" id="Yvv-wD-2V4"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AYf-FM-1yc" secondAttribute="trailing" constant="20" symbolic="YES" id="Z7B-Va-Ahi"/>
+                            <constraint firstItem="tIo-cs-DXV" firstAttribute="top" secondItem="dF1-ce-xk0" secondAttribute="bottom" constant="170" id="c6C-Ur-x29"/>
+                            <constraint firstItem="n8Z-f8-kpo" firstAttribute="trailing" secondItem="dF1-ce-xk0" secondAttribute="trailing" constant="224" id="e7h-Aq-fTQ"/>
+                            <constraint firstItem="dF1-ce-xk0" firstAttribute="leading" secondItem="rOt-FS-FH9" secondAttribute="leading" id="hHt-hb-X4S"/>
+                            <constraint firstItem="dF1-ce-xk0" firstAttribute="leading" secondItem="wdf-VI-1fn" secondAttribute="leading" id="m8O-Ob-oxc"/>
+                            <constraint firstItem="tIo-cs-DXV" firstAttribute="trailing" secondItem="n8Z-f8-kpo" secondAttribute="trailing" id="mH0-lo-xig"/>
+                            <constraint firstItem="dF1-ce-xk0" firstAttribute="top" secondItem="wdf-VI-1fn" secondAttribute="bottom" constant="8" id="ruR-0e-zfp"/>
+                            <constraint firstItem="rOt-FS-FH9" firstAttribute="leading" secondItem="AYf-FM-1yc" secondAttribute="leading" id="xGf-Qd-fcM"/>
+                            <constraint firstItem="dF1-ce-xk0" firstAttribute="leading" secondItem="n8Z-f8-kpo" secondAttribute="leading" constant="22" id="xgu-DV-96s"/>
+                            <constraint firstItem="dF1-ce-xk0" firstAttribute="top" secondItem="Qvc-Yr-NRQ" secondAttribute="top" constant="283" id="y4j-9V-UuB"/>
+                            <constraint firstItem="rOt-FS-FH9" firstAttribute="top" secondItem="AYf-FM-1yc" secondAttribute="bottom" constant="8" symbolic="YES" id="yd0-AB-YtV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="n8Z-f8-kpo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="DMC4" id="hGC-gs-zcd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hdi-IV-IiQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167.19999999999999" y="1149.1754122938532"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kv9-n2-QiN">
+            <objects>
+                <viewController id="hBs-XL-i2g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6a3-L5-ywS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Devil May Cry 4_ Special Edition" translatesAutoresizingMaskIntoConstraints="NO" id="kIl-Lw-9DQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5V-Mr-euC">
+                                <rect key="frame" x="16" y="64" width="95" height="30"/>
+                                <state key="normal" title="尼祿（Nero）"/>
+                                <connections>
+                                    <segue destination="QW2-z9-rLN" kind="show" id="aGB-xF-yqB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozg-F2-mmw">
+                                <rect key="frame" x="13" y="102" width="102" height="30"/>
+                                <state key="normal" title="但丁（Dante）"/>
+                                <connections>
+                                    <segue destination="l2U-qd-DiO" kind="show" id="4n6-rn-kJt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgU-sf-uPa">
+                                <rect key="frame" x="13" y="140" width="111" height="30"/>
+                                <state key="normal" title="姬莉葉（Kyrie）"/>
+                                <connections>
+                                    <segue destination="DP0-68-ZrM" kind="show" id="iVz-85-GAl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdK-vF-McF">
+                                <rect key="frame" x="16" y="178" width="119" height="30"/>
+                                <state key="normal" title="克雷多（Credo）"/>
+                                <connections>
+                                    <segue destination="8xa-5x-qnq" kind="show" id="ADM-ZE-938"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKo-gt-FcK">
+                                <rect key="frame" x="13" y="216" width="132" height="30"/>
+                                <state key="normal" title="葛蘿莉亞（Gloria）"/>
+                                <connections>
+                                    <segue destination="9Sx-JM-iSW" kind="show" id="4bx-SO-YaY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxO-cS-ti8">
+                                <rect key="frame" x="24" y="292" width="95" height="30"/>
+                                <state key="normal" title="翠絲（Trish）"/>
+                                <connections>
+                                    <segue destination="4WT-tz-y8R" kind="show" id="TWn-8H-7tQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5J-do-5h4">
+                                <rect key="frame" x="24" y="330" width="95" height="30"/>
+                                <state key="normal" title="蕾蒂（Lady）"/>
+                                <connections>
+                                    <segue destination="sFb-YA-R6h" kind="show" id="e8s-Ra-i0w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pd-za-bO8">
+                                <rect key="frame" x="14" y="368" width="116" height="30"/>
+                                <state key="normal" title="維吉爾（Vergil）"/>
+                                <connections>
+                                    <segue destination="Mqf-HI-3vF" kind="show" id="7XC-Ll-5tV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRq-bK-hQn">
+                                <rect key="frame" x="16" y="254" width="135" height="30"/>
+                                <state key="normal" title="亞格納斯（Agnus）"/>
+                                <connections>
+                                    <segue destination="WdP-gf-OOa" kind="show" id="vMk-Fa-sVz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wxO-cS-ti8" firstAttribute="top" secondItem="YRq-bK-hQn" secondAttribute="bottom" constant="8" id="0hb-Ja-vOg"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SKo-gt-FcK" secondAttribute="trailing" constant="20" symbolic="YES" id="4b1-6W-AJD"/>
+                            <constraint firstItem="wxO-cS-ti8" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="24" id="4bO-5E-dwT"/>
+                            <constraint firstItem="YRq-bK-hQn" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="16" id="6wL-WO-L2Y"/>
+                            <constraint firstItem="YdK-vF-McF" firstAttribute="top" secondItem="wgU-sf-uPa" secondAttribute="bottom" constant="8" id="7B0-PV-eVj"/>
+                            <constraint firstItem="SKo-gt-FcK" firstAttribute="top" secondItem="YdK-vF-McF" secondAttribute="bottom" constant="8" id="C9c-Af-TEp"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="F5J-do-5h4" secondAttribute="trailing" constant="20" symbolic="YES" id="J0L-7P-Age"/>
+                            <constraint firstItem="4pd-za-bO8" firstAttribute="top" secondItem="F5J-do-5h4" secondAttribute="bottom" constant="8" id="MLb-nu-2Qi"/>
+                            <constraint firstItem="H5V-Mr-euC" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="16" id="PpV-EU-wGQ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ozg-F2-mmw" secondAttribute="trailing" constant="20" symbolic="YES" id="TB7-Hr-HUJ"/>
+                            <constraint firstItem="H5V-Mr-euC" firstAttribute="top" secondItem="2Ri-zw-ghc" secondAttribute="top" id="WWP-Oh-zUb"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wgU-sf-uPa" secondAttribute="trailing" constant="20" symbolic="YES" id="WuE-4r-NAU"/>
+                            <constraint firstItem="F5J-do-5h4" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="24" id="Xeh-zZ-2sE"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wxO-cS-ti8" secondAttribute="trailing" constant="20" symbolic="YES" id="Yvj-iW-FMf"/>
+                            <constraint firstItem="F5J-do-5h4" firstAttribute="top" secondItem="wxO-cS-ti8" secondAttribute="bottom" constant="8" id="bp5-7i-WoD"/>
+                            <constraint firstItem="ozg-F2-mmw" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="13" id="cKn-dZ-dqR"/>
+                            <constraint firstItem="YRq-bK-hQn" firstAttribute="top" secondItem="SKo-gt-FcK" secondAttribute="bottom" constant="8" id="cfv-63-kUi"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YdK-vF-McF" secondAttribute="trailing" constant="20" symbolic="YES" id="cmV-i4-jur"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="H5V-Mr-euC" secondAttribute="trailing" constant="20" symbolic="YES" id="hvT-tC-4dh"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4pd-za-bO8" secondAttribute="trailing" constant="20" symbolic="YES" id="iNJ-vk-94h"/>
+                            <constraint firstItem="wgU-sf-uPa" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="13" id="nFh-vy-2O8"/>
+                            <constraint firstItem="ozg-F2-mmw" firstAttribute="top" secondItem="H5V-Mr-euC" secondAttribute="bottom" constant="8" id="ntZ-ue-pRa"/>
+                            <constraint firstItem="4pd-za-bO8" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="14" id="rfd-BU-OVC"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YRq-bK-hQn" secondAttribute="trailing" constant="20" symbolic="YES" id="sdF-bc-9KQ"/>
+                            <constraint firstItem="wgU-sf-uPa" firstAttribute="top" secondItem="ozg-F2-mmw" secondAttribute="bottom" constant="8" id="uYD-WX-Cz9"/>
+                            <constraint firstItem="YdK-vF-McF" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="16" id="xZ4-Ip-c2h"/>
+                            <constraint firstItem="SKo-gt-FcK" firstAttribute="leading" secondItem="2Ri-zw-ghc" secondAttribute="leading" constant="13" id="zPh-YU-VN5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Ri-zw-ghc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZGV-NM-RuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="1934"/>
+        </scene>
+        <!--For Web42 Use-->
+        <scene sceneID="pP5-Hd-1xu">
+            <objects>
+                <viewController id="QX4-nm-Ie7" customClass="ForWeb4_2Use" customModule="DevilMayCry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bvD-zJ-Zuj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S5Y-Lo-2HP">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Uj8-90-lnt"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="S5Y-Lo-2HP" id="0od-Db-Gw9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EFN-Qd-BcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1452" y="1614"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T6f-2y-ru0">
+            <objects>
+                <viewController id="COO-CE-YiV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YEb-C7-WV0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Devil-may-cry-4" translatesAutoresizingMaskIntoConstraints="NO" id="SFQ-rk-T02">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2r-M2-Mxb">
+                                <rect key="frame" x="24" y="144" width="327" height="439"/>
+                                <string key="text">《惡魔獵人4》的時間序設於2代之前。魔劍教團是城塞都市「弗杜那」（ Fortuna 的信仰組織，崇拜挺身為人類對抗魔界大軍的斯巴達（ Sparda，即是但丁之父），憎恨並排斥斯巴達之外的惡魔，以排除其他惡魔為第一教義，於是教團內成立了一支私人部隊「教團騎士」以維護魔劍教團的教義，並且有著技術局負責研究對付惡魔的武器。主角尼祿是「教團騎士」成員之一，是一個擁有惡魔之右腕的年輕戰士。直至有一日，但丁從蕾蒂口中知道魔劍教團的陰謀後，便突襲教團的總部，屠殺魔劍教團的成員，於是尼祿便跟但丁展開一場激鬥，最後尼祿利用他的「惡魔之右腕」成功擊退但丁。由於教團的人未知但丁突襲的原因，於是教團騎士團長克雷德（Credo）命令尼祿前往尋找但丁。尼祿離開總部發覺弗杜那已經完全被惡魔侵佔，就是這樣展開了《惡魔獵人4》的故事。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.058155415100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cPY-A2-TAN" firstAttribute="trailing" secondItem="a2r-M2-Mxb" secondAttribute="trailing" constant="24" id="9r1-45-8ch"/>
+                            <constraint firstItem="a2r-M2-Mxb" firstAttribute="top" secondItem="cPY-A2-TAN" secondAttribute="top" constant="80" id="AO4-E6-Pby"/>
+                            <constraint firstItem="cPY-A2-TAN" firstAttribute="bottom" secondItem="a2r-M2-Mxb" secondAttribute="bottom" constant="84" id="Fya-QN-wNu"/>
+                            <constraint firstItem="cPY-A2-TAN" firstAttribute="bottom" secondItem="SFQ-rk-T02" secondAttribute="bottom" id="RzF-gr-Dn2"/>
+                            <constraint firstItem="cPY-A2-TAN" firstAttribute="trailing" secondItem="SFQ-rk-T02" secondAttribute="trailing" id="dKP-0E-qTN"/>
+                            <constraint firstItem="SFQ-rk-T02" firstAttribute="leading" secondItem="cPY-A2-TAN" secondAttribute="leading" id="kx0-Lu-PMY"/>
+                            <constraint firstItem="a2r-M2-Mxb" firstAttribute="leading" secondItem="cPY-A2-TAN" secondAttribute="leading" constant="24" id="nTN-8y-Qt4"/>
+                            <constraint firstItem="SFQ-rk-T02" firstAttribute="centerY" secondItem="cPY-A2-TAN" secondAttribute="centerY" id="ycs-yH-yWP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cPY-A2-TAN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzK-K9-I8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="1934"/>
+        </scene>
+        <!--For Web Use-->
+        <scene sceneID="YSO-GO-vrH">
+            <objects>
+                <viewController id="Geh-ie-AVG" customClass="ForWebUse" customModule="DevilMayCry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8xe-hB-hNG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oCC-xE-36A">
+                                <rect key="frame" x="0.0" y="64" width="375" height="597"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JXl-VF-Rva"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="oCC-xE-36A" id="woq-Xu-baS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NiU-Ga-976" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2532" y="1147.3763118440781"/>
+        </scene>
+        <!--DMC3-->
+        <scene sceneID="IHg-QP-vg9">
+            <objects>
+                <viewController id="DFp-Sm-tt8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dgw-9Y-0Dg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dmc3BG" translatesAutoresizingMaskIntoConstraints="NO" id="eno-v3-ovC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DMC3 logo" translatesAutoresizingMaskIntoConstraints="NO" id="qL7-lb-nHF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW8-ZY-8OS">
+                                <rect key="frame" x="16" y="153" width="62" height="30"/>
+                                <state key="normal" title="劇情大綱"/>
+                                <connections>
+                                    <segue destination="9Th-dV-rUg" kind="show" id="9of-ul-xWk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-0V-kXY">
+                                <rect key="frame" x="16" y="198" width="62" height="30"/>
+                                <state key="normal" title="人物介紹"/>
+                                <connections>
+                                    <segue destination="7NY-oS-t5b" kind="show" id="XQy-0J-1NC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cM8-Tb-VXe">
+                                <rect key="frame" x="16" y="236" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="e3B-rE-5Vp"/>
+                                </constraints>
+                                <state key="normal" title="精彩影片"/>
+                                <connections>
+                                    <segue destination="Geh-ie-AVG" kind="show" id="pbt-Ye-X9w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8UH-0V-kXY" firstAttribute="top" secondItem="fW8-ZY-8OS" secondAttribute="bottom" constant="15" id="1dm-wh-7jW"/>
+                            <constraint firstItem="8UH-0V-kXY" firstAttribute="leading" secondItem="fW8-ZY-8OS" secondAttribute="leading" id="1wm-ad-Rpw"/>
+                            <constraint firstItem="cM8-Tb-VXe" firstAttribute="top" secondItem="8UH-0V-kXY" secondAttribute="bottom" constant="8" id="65y-zi-Y9X"/>
+                            <constraint firstItem="cM8-Tb-VXe" firstAttribute="leading" secondItem="qcD-LB-gMs" secondAttribute="leading" constant="16" id="BHi-3d-vFu"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8UH-0V-kXY" secondAttribute="trailing" constant="20" symbolic="YES" id="Feo-xZ-wmc"/>
+                            <constraint firstItem="qcD-LB-gMs" firstAttribute="bottom" secondItem="cM8-Tb-VXe" secondAttribute="bottom" constant="352" id="ZZV-BH-9iy"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fW8-ZY-8OS" secondAttribute="trailing" constant="20" symbolic="YES" id="ehv-NS-GW7"/>
+                            <constraint firstItem="8UH-0V-kXY" firstAttribute="leading" secondItem="cM8-Tb-VXe" secondAttribute="leading" id="f4i-IO-qwG"/>
+                            <constraint firstItem="qcD-LB-gMs" firstAttribute="trailing" secondItem="cM8-Tb-VXe" secondAttribute="trailing" constant="297" id="jDO-D9-Do7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qcD-LB-gMs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="DMC3" id="pOZ-2Z-hnh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4vP-E2-JtA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728.8" y="1148.2758620689656"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UoK-Ac-wWY">
+            <objects>
+                <viewController id="9Th-dV-rUg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rIK-gh-Ype">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deatheater1" translatesAutoresizingMaskIntoConstraints="NO" id="Si2-lh-7t9">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0av-RW-NBp">
+                                <rect key="frame" x="32" y="239" width="327" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="282" id="5yV-FK-2ef"/>
+                                    <constraint firstAttribute="width" constant="327" id="so0-Fj-VYj"/>
+                                </constraints>
+                                <string key="text">《惡魔獵人3》的故事劇情回到《惡魔獵人》之前，敘述主角但丁（Dante）的惡魔獵人事務所剛成立，連店名都還未想出來的時候，突然有一名神秘的男子阿卡姆（Arkham）造訪，之後但丁便陷入一連串被惡魔追殺的事件中。身具惡魔異能且武藝高超的但丁自然不會把這些嘍囉惡魔放在眼裡，但是在這一連串事件的背後，卻是足以與他匹敵的雙胞胎兄長——維吉爾（Vergil）。接著這對同為魔界最強劍士斯巴達（Sparda）與人類女子混血後裔的兄弟，將要展開驚天動地的對決，並會揭開隱藏在維吉爾與阿卡姆背後的巨大陰謀。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DMC3 logo" translatesAutoresizingMaskIntoConstraints="NO" id="ioE-YH-Xmd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="6bX-Xf-PN2"/>
+                                    <constraint firstAttribute="width" constant="375" id="hxC-1R-KTY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ioE-YH-Xmd" firstAttribute="leading" secondItem="BMe-Gr-wgR" secondAttribute="leading" id="Ewu-qw-3i4"/>
+                            <constraint firstItem="ioE-YH-Xmd" firstAttribute="trailing" secondItem="BMe-Gr-wgR" secondAttribute="trailing" id="Uil-hW-7Qn"/>
+                            <constraint firstItem="BMe-Gr-wgR" firstAttribute="bottom" secondItem="0av-RW-NBp" secondAttribute="bottom" constant="146" id="aoQ-s9-lEZ"/>
+                            <constraint firstItem="ioE-YH-Xmd" firstAttribute="top" secondItem="BMe-Gr-wgR" secondAttribute="top" id="goR-0a-Ct2"/>
+                            <constraint firstItem="0av-RW-NBp" firstAttribute="leading" secondItem="BMe-Gr-wgR" secondAttribute="leading" constant="32" id="hBc-V2-kuN"/>
+                            <constraint firstItem="0av-RW-NBp" firstAttribute="top" secondItem="ioE-YH-Xmd" secondAttribute="bottom" constant="83" id="w6f-YD-RN0"/>
+                            <constraint firstItem="BMe-Gr-wgR" firstAttribute="trailing" secondItem="0av-RW-NBp" secondAttribute="trailing" constant="16" id="z9p-e5-U15"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BMe-Gr-wgR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="66c-xY-dp7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="1941"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lgW-0a-dei">
+            <objects>
+                <viewController id="7NY-oS-t5b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cur-zt-rHC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="iRw-yf-FA4">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCx-PR-OSJ">
+                                <rect key="frame" x="38" y="88" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="但丁（Dante）"/>
+                                <connections>
+                                    <segue destination="V5c-Zb-Ew7" kind="show" id="Rih-to-k0A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6OW-Bd-4Y1">
+                                <rect key="frame" x="141" y="126" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="阿卡姆（Arkham）"/>
+                                <connections>
+                                    <segue destination="15c-mT-IDl" kind="show" id="o1T-c9-Z94"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmZ-7S-UqU">
+                                <rect key="frame" x="141" y="88" width="116" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="維吉爾（Vergil）"/>
+                                <connections>
+                                    <segue destination="O2s-Zb-pQh" kind="show" id="XIF-ri-Djf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d51-cM-Q6O">
+                                <rect key="frame" x="38" y="175" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="傑斯特（Jester）"/>
+                                <connections>
+                                    <segue destination="3Qp-4r-Gm3" kind="show" id="YXC-5Z-vxd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exb-QJ-XON">
+                                <rect key="frame" x="38" y="126" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="蕾蒂（Lady）"/>
+                                <connections>
+                                    <segue destination="Spp-ve-qk5" kind="show" id="NLS-3a-Q4o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Jzd-xT-UfA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdz-0P-boU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2153" y="1941"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bJe-cB-aUC">
+            <objects>
+                <viewController id="V5c-Zb-Ew7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZB4-NH-nRk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3dante" translatesAutoresizingMaskIntoConstraints="NO" id="KdD-Wm-lGQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="但丁是《惡魔獵人3》的主角，具有半人半魔的身分，剛剛成立了一間惡魔獵人(DevilMayCry)事務所。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iK1-oj-xK1">
+                                <rect key="frame" x="24" y="543" width="327" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Fkd-KC-Pa0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g30-aq-rYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2868" y="1941"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kf6-Yk-qgy">
+            <objects>
+                <viewController id="DP0-68-ZrM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="13a-ek-6dD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Kyrie" translatesAutoresizingMaskIntoConstraints="NO" id="nCX-o2-KMJ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="姬莉葉是克雷多的妹妹，在魔劍教團舉行「魔劍祭」時擔任歌姬。姬莉葉與舉目無親的尼祿如同家人般一同生活，對尼祿來說是個如姊如母般的角色。後期姬莉葉因為在一連串的陰謀中知道尼祿對自己的心意，到結局時已經接受了尼祿的愛，正式表明了兩人的關係。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yw-Sz-JHw">
+                                <rect key="frame" x="48" y="327" width="327" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.058155415100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Yml-hJ-kBw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pzy-N8-y1I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-676" y="2602.8485757121443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0OL-Wd-hmj">
+            <objects>
+                <viewController id="l2U-qd-DiO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ibL-35-G3r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Dante" translatesAutoresizingMaskIntoConstraints="NO" id="InA-CF-Hur">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDx-7B-oXK">
+                                <rect key="frame" x="24" y="67" width="327" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">但丁繼續以最強惡魔獵人的姿態出現，在蕾蒂口中得知魔劍教團正在策劃一連串陰謀，所以突襲魔劍教團總部。前期他會成為新主角尼祿的敵人，直至後期尼祿發現魔劍教團的陰謀後間接與但丁聯手阻止教團的計畫。本集但丁將會配備三件近戰武器，包括在上集中他使用的，擁有魔力的大劍 Rebellion，拳套 Gilgamesh（與上集的BEOWULF有點相似），Gilgamesh由於能夠使生物同化一部份鋼化的魔界金屬，故擁有驚人的破壞力，Gilgamesh同時擁有強力的衝擊能力，積蓄能量後可產生極大的威力，他亦配備了新武器Lucifer，其擁有一個裝置，當中藏有無窮無盡可爆發的劍，從裝置中放出來的劍擁有空間固定功能，亦可以控制爆發的時間，是一件戰略性很高的武器，除了近戰武器，但丁還配備了3件遠戰武器，包括前幾集的雙槍 Ebony&amp;Ivory、霰彈槍 coyote-A、以及魔界兵器 Pandora，Pandora擁有666種變化(遊戲裡只能使用少數幾種)，並且擁有變強的破壞力，而射擊範圍大至能夠把周圍的敵人一瞬殲滅。此外還追加加了一個新的專屬風格DARK SLAYER，可使用Vergil的閻魔刀。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pt4-zj-54d"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdP-Ie-5kk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.199999999999999" y="2602.8485757121443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s9v-GR-ypz">
+            <objects>
+                <viewController id="QW2-z9-rLN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bot-ss-RIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Nero" translatesAutoresizingMaskIntoConstraints="NO" id="D40-DE-pWk">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7No-xf-tai">
+                                <rect key="frame" x="24" y="118" width="327" height="495"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">尼祿擁有著「惡魔之右腕」的強大威力，可以施展被稱為「召魔者」 （ Devil Bringer ）的特殊技巧，包括「抓取」將遠方的敵人或道具抓取至眼前，搭配武器施展出不間斷的連續攻擊。他配備的大劍「緋紅皇后」（ Red Queen ）是由魔劍教團 技術局所開發，具備油門與用來控制刀背的噴射口，以內藏的推進劑進行噴射加速、積蓄能量施展連續斬擊，亦能夠裝備道具提升大劍的能力。而他的配槍「湛藍玫瑰」（ Blue Rose ）是尼祿自行改造的6發大口徑左輪手槍（NERO是左撇子使用左手射擊），可同時發射2顆子彈，透過集氣方式施展強力且具有吹飛效果的射擊。由於魔劍教團以劍為尊，因此魔劍教團內只有尼祿使用槍械。尼祿擁有魔人化的力量，魔人化後能解放出右手的真正姿態，並且能使用前作中但丁兄長維吉爾（Vergil）的閻魔刀，而右手的來源及身世沒有在故事中提及（只有教皇提到過尼祿擁有Sparda血統）。小説版說尼祿正是維吉爾的兒子，但該小說沒有提及何時誕下尼祿。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.047335730033341683" green="0.049429600239396132" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TfW-sU-qez"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mkG-hR-sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.60000000000002" y="2602.8485757121443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="es4-xB-BNw">
+            <objects>
+                <viewController id="WdP-gf-OOa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0xa-SX-ahp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Agrus" translatesAutoresizingMaskIntoConstraints="NO" id="hfl-2b-B56">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfL-Zl-Ypc">
+                                <rect key="frame" x="32" y="377" width="327" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">亞格納斯是魔劍教團技術局局長，負責開發對抗惡魔的技術與武器，他的個性極度的陰沉而狡猾而且說話有時候會口吃，他亦經過了教團中的「歸天」，令自身能夠魔人化，變成單眼天使，並擁有一副蒼蠅的姿態，教團騎士所配備的機械武裝都是由他所構思。亞格納斯很少出現在教團的活動，教團中知道他存在的人並不多。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.058155415100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SEN-iE-1kB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loo-Bc-Ohn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-676" y="3313.4932533733136"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NK3-kD-O8F">
+            <objects>
+                <viewController id="9Sx-JM-iSW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mES-7h-7vq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Gloria" translatesAutoresizingMaskIntoConstraints="NO" id="aup-zB-g3x">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7j-RR-68l">
+                                <rect key="frame" x="32" y="313" width="327" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">葛蘿莉亞是魔劍教團幹部中唯一的女性，具備異國風格的妖艷外貌。由於葛蘿莉亞加入魔劍教團後，在很短的時間內就晉升為幹部，因此教團中不少人不信任她，葛蘿莉亞真正身份是翠絲（ Trish ），翠絲把魔劍Sparda交給教團的原因是要得到教皇的信任，而翠絲加入教團的原因是為了與但丁裡應外合，不過正因為她把Sparda交給教皇，令事件變得白熱化及混亂，最終要靠眾人之力才能平息事件。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6bN-Nr-2OP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bjz-jS-4Hi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.199999999999999" y="3314.3928035982012"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qOM-Tw-K7d">
+            <objects>
+                <viewController id="8xa-5x-qnq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mMg-hb-WQw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Credo" translatesAutoresizingMaskIntoConstraints="NO" id="REN-f2-tOJ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odv-aV-nfH">
+                                <rect key="frame" x="32" y="221" width="327" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">克雷多是魔劍教團的「教團騎士」團長，性格嚴肅公正，具備高超的劍術與統領數百名部下的統馭力。克雷多經過魔劍教團中的「歸天」令他自身能夠魔人化，變成單翼天使，並自稱為「天使」，在尼祿正想回去總部問清楚教團真正目的途中出現阻止尼祿，後來被他打敗，從中知道教團一直都利用自己及妹妹，之後在教團總部的救世主面前為了救被俘虜的尼祿而被教皇聖克圖斯用到手的閻魔刀刺穿其腹部，而最後在但丁答應他的請求(救出尼祿和姬莉葉兩個人)之後自己因為受傷太過嚴重而化成了一道光和金色的羽毛而死去，克雷多與妹妹姬莉葉一樣把尼祿當成家族成員，不過也因為尼祿經常違抗命令、任意行動的行徑而感到煩惱。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aIn-HN-NQz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhG-Ir-Y6Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.60000000000002" y="3314.3928035982012"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w0k-KQ-jNR">
+            <objects>
+                <viewController id="Mqf-HI-3vF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fmG-Lq-BDi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Vergil" translatesAutoresizingMaskIntoConstraints="NO" id="Ad3-kk-uqE">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msa-6x-7VY">
+                                <rect key="frame" x="32" y="254" width="327" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">為特別版新增角色，維吉爾是但丁的雙胞胎哥哥，同樣具有半人半魔的身分。主要特徵為銀白頭髮和藍色大衣，性格跟但丁相反，冷酷少語。使用武器為野太刀，名為「閻魔刀（Yamato）」。在《惡魔獵人3》和但丁的決鬥失敗後，維吉爾墬入魔界，挑戰魔帝失敗並遭改造為黑騎士尼洛·安傑羅（Nelo Angelo）</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9fh-Sc-bGv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8S9-R9-UlV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-676" y="4012.443778110945"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CL0-Ja-qQy">
+            <objects>
+                <viewController id="sFb-YA-R6h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oCQ-jv-V0h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Lady" translatesAutoresizingMaskIntoConstraints="NO" id="PTP-Nr-UJX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rNv-6g-8qM">
+                                <rect key="frame" x="32" y="291" width="327" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">蕾蒂曾經於《惡魔獵人3》登場，本名為Mary，但因為蕾蒂對父親的憎恨而排斥Mary這個名字，於是但丁於前作用Lady來對她的稱呼，在本集初期向但丁說出魔劍教團的陰謀並且請求他突襲教團，她本身亦為了自己的利益而請求但丁。（因為教團騎士追殺惡魔，所以搶了不少她的工作。）但最後教團解散後，她給但丁的佣金卻很少（一個手提箱裡卻只有一捆鈔票）</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.058155415100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RPB-Jt-xa7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZWN-LS-qSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.199999999999999" y="4011.5442278860573"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lt3-UU-ZRf">
+            <objects>
+                <viewController id="4WT-tz-y8R" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Io-Hl-qae">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4Trish" translatesAutoresizingMaskIntoConstraints="NO" id="WNB-5R-KuF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKO-aO-MpR">
+                                <rect key="frame" x="32" y="295" width="327" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">翠絲曾經於《惡魔獵人》登場，跟但丁的母親有著一模一樣的容貌，由一代但丁面對的魔帝穆圖斯模仿但丁的母親所創造出來的。在一代故事裡翠絲設計偷襲了但丁，但是但丁卻救了並且放過她，她因此被感化，兩人合力打敗魔帝後，翠絲加入了事務所，並且成為了但丁的夥伴。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8eh-GP-MVq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5nN-N6-yHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.60000000000002" y="4011.5442278860573"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ksZ-qr-X46">
+            <objects>
+                <viewController id="3Qp-4r-Gm3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JaT-CU-dvJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e7476f38294c79f0409a8c3a297d0234" translatesAutoresizingMaskIntoConstraints="NO" id="z8K-d1-UWK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="傑斯特是阿卡姆的化身，形貌紫色的小丑，暗地指引但丁、維吉爾、蕾蒂三個人互相殘殺，目的為削弱三人戰力，以達成自己的目的。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JO-tu-O1k">
+                                <rect key="frame" x="24" y="313" width="327" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EgF-I2-OYK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yds-wi-h2w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1396" y="2603"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VI5-iB-cJj">
+            <objects>
+                <viewController id="15c-mT-IDl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wjK-G6-029">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="86042bed7bb7d7e014230376caeee224" translatesAutoresizingMaskIntoConstraints="NO" id="bEa-k0-Mc2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="阿卡姆是蕾蒂的父親，因鑽研黑魔術而殺了自己的妻子，變成了惡魔，也因此造成蕾蒂對他的憎恨。故事中為了得到斯巴達（即但丁之父）的力量，表面上與維吉爾合作，但實際上是為了利用他。最後雖然阿卡姆得到斯巴達的力量，但還是敗在但丁和維吉爾手下。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksw-OA-SxA">
+                                <rect key="frame" x="24" y="281" width="327" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MVv-ZB-olR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zot-Ur-hBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2072.8000000000002" y="2602.8485757121443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YFT-5k-XnH">
+            <objects>
+                <viewController id="Spp-ve-qk5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kRy-Nl-5EQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lady_3" translatesAutoresizingMaskIntoConstraints="NO" id="TRQ-Sw-KpP">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蕾蒂本名為Mary(梅莉)，但因為蕾蒂對父親的憎恨而排斥Mary這個名字，但丁問蕾蒂的名字時，蕾蒂回答:隨便，於是但丁便用Lady來稱呼她，本人似乎也不反對,後來也就成了她的名字。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9l-Kg-eSV">
+                                <rect key="frame" x="24" y="543" width="327" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1J6-Ma-54f"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YoT-zB-4Pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2734" y="2603"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XwO-YO-Jud">
+            <objects>
+                <viewController id="O2s-Zb-pQh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TVq-Hy-mkZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vergil-devil-may-cry-3-devil-may-cry-3-10480532-1024-768" translatesAutoresizingMaskIntoConstraints="NO" id="2Qs-L7-IWR">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlI-9W-tAD">
+                                <rect key="frame" x="32" y="278" width="327" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">維吉爾是但丁的雙胞胎哥哥，同樣具有半人半魔的身分，命名的由來為古羅馬詩人維吉爾。維吉爾於《惡魔獵人3》正式登場，主要特徵為銀白頭髮和藍色大衣，使用武器為野太刀，名為閻魔刀。在和但丁的決鬥失敗後，維吉爾墬入魔界，挑戰魔界帝王Mundus失敗，遭改造為黑騎士(Nelo Angelo)。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hyx-pX-Pxs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FcP-oy-qR6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3384.8000000000002" y="2602.8485757121443"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fNI-RW-ZKo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gks-av-ldd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="v7y-0o-Xb1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1KD-qr-cd3" kind="relationship" relationship="rootViewController" id="p1f-2B-lo6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Luy-Lw-zhv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="279.31034482758622"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Kjm-bh-s5R">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1KD-qr-cd3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="KEV-z2-zwe"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bp9-QZ-6It">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="St9-aa-aOe"/>
+                        <segue destination="Dp5-Po-LDN" kind="relationship" relationship="viewControllers" id="nc2-6E-h62"/>
+                        <segue destination="DFp-Sm-tt8" kind="relationship" relationship="viewControllers" id="Vgf-Rp-hvV"/>
+                        <segue destination="90A-e3-7aZ" kind="relationship" relationship="viewControllers" id="JGC-0a-4mN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6a1-vl-5rm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.79999999999995" y="278.41079460269867"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="02_1" width="1024" height="768"/>
+        <image name="03_1 " width="1024" height="768"/>
+        <image name="1" width="640" height="480"/>
+        <image name="1Mundus" width="480" height="420"/>
+        <image name="1eva" width="300" height="210"/>
+        <image name="1sparda" width="324" height="214"/>
+        <image name="1代Trish" width="174" height="290"/>
+        <image name="1代維吉爾" width="227" height="222"/>
+        <image name="220px-dante_26_lucia" width="220" height="294"/>
+        <image name="3dante" width="1280" height="1600"/>
+        <image name="4Agrus" width="1280" height="720"/>
+        <image name="4Credo" width="1280" height="720"/>
+        <image name="4Dante" width="1280" height="720"/>
+        <image name="4Gloria" width="1280" height="720"/>
+        <image name="4Kyrie" width="1920" height="1200"/>
+        <image name="4Lady" width="1920" height="1200"/>
+        <image name="4Nero" width="1080" height="608"/>
+        <image name="4Trish" width="1280" height="1024"/>
+        <image name="4Vergil" width="1788" height="2750"/>
+        <image name="86042bed7bb7d7e014230376caeee224" width="790" height="1580"/>
+        <image name="DMC logo" width="321" height="128"/>
+        <image name="DMC1-2BG" width="750" height="1043"/>
+        <image name="DMC1-6" width="784" height="938"/>
+        <image name="DMC3 logo" width="321" height="128"/>
+        <image name="Devil May Cry 4_ Special Edition" width="600" height="800"/>
+        <image name="Devil-may-cry-4" width="1280" height="1024"/>
+        <image name="Devil_May_Cry_4" width="991" height="493"/>
+        <image name="Lady_3" width="1200" height="1600"/>
+        <image name="Lucia-Wallpaper-devil-may-cry-2-38822186-1024-768" width="1024" height="768"/>
+        <image name="Nmare16 " width="1600" height="1001"/>
+        <image name="ar2" width="362" height="410"/>
+        <image name="d_02sxga" width="1280" height="1024"/>
+        <image name="deatheater1" width="1024" height="768"/>
+        <image name="dmc2BG" width="1280" height="1024"/>
+        <image name="dmc3BG" width="480" height="600"/>
+        <image name="dmc4BG" width="529" height="640"/>
+        <image name="e7476f38294c79f0409a8c3a297d0234" width="500" height="500"/>
+        <image name="matier-devil-may-cry-2-2.83" width="210" height="240"/>
+        <image name="vergil-devil-may-cry-3-devil-may-cry-3-10480532-1024-768" width="1024" height="768"/>
+    </resources>
 </document>
